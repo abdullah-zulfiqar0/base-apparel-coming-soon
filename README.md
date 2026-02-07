@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-html-css-js
-- Live Site URL: https://your-github-username.github.io/base-apparel-coming-soon
+- Live Site URL:https://abdullah-zulfiqar0.github.io/base-apparel-coming-soon/
 
 ---
 
