@@ -74,7 +74,7 @@ In future projects, I want to:
 
 ## Author
 
-- Name: **Abdullah Zulfiqar**
+ Name: Abdullah Zulfiqar
 Frontend Mentor: https://www.frontendmentor.io/profile/abdullah-zulfiqar0
 GitHub: https://github.com/abdullah-zulfiqar0
 
