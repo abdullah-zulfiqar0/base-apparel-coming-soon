@@ -1,0 +1,242 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,100&display=swap');
+
+  *{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .starter{
+
+ display: flex;
+ flex-direction: row;
+
+  overflow: hidden;
+  }
+ 
+  
+
+  .container{
+    height: 100vh;
+    width: 100%;
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     margin-top: 2rem;
+     margin-left: 8rem;
+     overflow: hidden;
+
+  }
+  span{
+
+ font-family: "Josefin Sans", sans-serif;
+  font-weight:900 ;
+  font-style: normal;
+ color: hsl(0, 36%, 70%);
+   letter-spacing: 0.5rem;
+
+  }
+  .main-heading{
+
+  margin-top: 5rem;
+  }
+
+
+  .main-heading h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 900;
+  color: hsl(0, 6%, 24%);
+  letter-spacing: 0.4rem;
+  font-size: 3rem;     
+}
+
+  .main-para{
+       
+ font-family: "Josefin Sans", sans-serif;
+
+  font-weight:900 ;
+  font-style: normal;
+  color: hsl(0, 36%, 70%);
+   line-height: 1.3rem;
+ 
+    margin-top: 1rem;
+    font-size: 0.8rem;
+
+    
+  }
+
+  .email{
+
+    margin-top: 1.6rem;
+  border-color: white;
+  display: flex;
+  transition-property: all;
+
+  }
+
+
+.email input::placeholder {
+  font-size: 1rem;
+  color: hsl(0, 36%, 70%);
+}
+
+
+
+.email input {
+  width: 22rem;         
+  padding: 0.9rem 1.5rem; 
+  border: 1px solid hsl(0, 36%, 70%);
+    padding-right: 3rem;   
+  border-radius: 2rem;   
+  font-size: 1rem;   
+  outline: none;
+}
+
+
+ .image img {
+   
+   
+    height: 37.5rem;
+    margin-right: 7rem;
+    
+} 
+.button{
+      transition-property: all;
+}
+.button button {
+
+
+    background-color: hsl(0, 93%, 68%);
+     
+    
+}
+.button button:hover{
+   transition: 0.5 ease;
+    transform: scale(1.1);
+}
+
+
+
+.button button {
+  margin-left: -3rem;   
+
+    background-color:hsl(0, 71%, 73%);
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.button img {
+  width: 1rem;
+}
+
+
+.error {
+
+    display: flex;
+    color: red;
+    
+ font-family: "Josefin Sans", sans-serif;
+  font-weight:900 ;
+  font-style: normal;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+    display: none;
+}
+
+ 
+
+   
+
+
+
+@media (max-width: 768px) {
+
+  .starter {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .container {
+    height: auto;
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .logo {
+    margin-bottom: 2rem;
+  }
+
+  .main-heading {
+    margin-top: 2rem;
+  }
+
+  .main-heading h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .main-para {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+
+  .email {
+    justify-content: center;
+  }
+
+  .email input {
+    width: 100%;
+  }
+
+  .button button {
+    margin-left: -3.2rem;
+  }
+
+  .error {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .image img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+}
+
+/*   for Small Mobile */
+@media (max-width: 480px) {
+
+  .main-heading h1 {
+    font-size: 1.8rem;
+  }
+
+  .email input {
+    font-size: 0.9rem;
+    padding: 0.8rem 1.2rem;
+  }
+
+  .button button {
+    padding: 0.6rem 1rem;
+  }
+}
+
+   
+@media (max-width: 1024px) {
+  .container {
+    margin-left: 3rem;
+  }
+
+  .image img {
+    height: 30rem;
+    margin-right: 2rem;
+  }
+}
